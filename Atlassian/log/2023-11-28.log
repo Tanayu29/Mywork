@@ -1,0 +1,41 @@
+2023-11-28 08:29:11,823:INFO:ログ開始
+2023-11-28 08:30:37,257:INFO:ログ開始
+2023-11-28 08:31:28,796:INFO:ログ終了
+2023-11-28 08:34:32,233:INFO:ログ開始
+2023-11-28 08:34:37,289:INFO:ユーザー情報: {'server': '登録申請書', 'username': None, 'firstname': None, 'lastname': None, 'email': None, 'fullname': 'None None'}
+2023-11-28 08:34:37,289:INFO:ユーザー情報: {'server': None, 'username': None, 'firstname': None, 'lastname': None, 'email': None, 'fullname': 'None None'}
+2023-11-28 08:34:37,289:INFO:ユーザー情報: {'server': '登録サーバー', 'username': 'UserName', 'firstname': 'FirstName', 'lastname': 'LastName', 'email': 'e-mail', 'fullname': 'FirstName LastName'}
+2023-11-28 08:34:37,294:INFO:ユーザー情報: {'server': 'server1', 'username': 'user01', 'firstname': 'Taro', 'lastname': 'Yamada', 'email': 'taro.yamada@example.com', 'fullname': 'Taro Yamada'}
+2023-11-28 08:34:37,294:INFO:ユーザー情報: {'server': 'server2', 'username': 'user02', 'firstname': 'Hanako', 'lastname': 'Suzuki', 'email': 'hanako.suzuki@example.com', 'fullname': 'Hanako Suzuki'}
+2023-11-28 08:34:37,294:INFO:ユーザー情報: {'server': 'server1', 'username': 'user03', 'firstname': 'Ichiro', 'lastname': 'Sato', 'email': 'ichiro.sato@example.com', 'fullname': 'Ichiro Sato'}
+2023-11-28 08:35:14,689:INFO:ログ終了
+2023-11-28 08:55:11,852:INFO:ログ開始
+2023-11-28 08:55:15,257:INFO:ユーザー情報: {'server': '登録申請書', 'username': None, 'firstname': None, 'lastname': None, 'email': None, 'fullname': 'None None'}
+2023-11-28 08:55:15,258:ERROR:ユーザー追加中にエラーが発生しました: name 'user_info' is not defined
+2023-11-28 08:57:09,651:INFO:ログ開始
+2023-11-28 08:57:12,772:INFO:ユーザー情報: {'server': '登録申請書', 'username': None, 'firstname': None, 'lastname': None, 'email': None, 'fullname': 'None None'}
+2023-11-28 08:57:12,773:ERROR:必要なユーザー情報が不足しています。
+2023-11-28 08:57:12,773:INFO:ユーザー情報: {'server': None, 'username': None, 'firstname': None, 'lastname': None, 'email': None, 'fullname': 'None None'}
+2023-11-28 08:57:12,773:ERROR:必要なユーザー情報が不足しています。
+2023-11-28 08:57:12,773:INFO:ユーザー情報: {'server': '登録サーバー', 'username': 'UserName', 'firstname': 'FirstName', 'lastname': 'LastName', 'email': 'e-mail', 'fullname': 'FirstName LastName'}
+2023-11-28 08:57:12,773:ERROR:必要なユーザー情報が不足しています。
+2023-11-28 08:57:12,773:INFO:ユーザー情報: {'server': 'server1', 'username': 'user01', 'firstname': 'Taro', 'lastname': 'Yamada', 'email': 'taro.yamada@example.com', 'fullname': 'Taro Yamada'}
+2023-11-28 08:57:12,774:ERROR:必要なユーザー情報が不足しています。
+2023-11-28 08:57:12,774:INFO:ユーザー情報: {'server': 'server2', 'username': 'user02', 'firstname': 'Hanako', 'lastname': 'Suzuki', 'email': 'hanako.suzuki@example.com', 'fullname': 'Hanako Suzuki'}
+2023-11-28 08:57:12,774:ERROR:必要なユーザー情報が不足しています。
+2023-11-28 08:57:12,774:INFO:ユーザー情報: {'server': 'server1', 'username': 'user03', 'firstname': 'Ichiro', 'lastname': 'Sato', 'email': 'ichiro.sato@example.com', 'fullname': 'Ichiro Sato'}
+2023-11-28 08:57:12,774:ERROR:必要なユーザー情報が不足しています。
+2023-11-28 09:01:51,769:INFO:ログ開始
+2023-11-28 09:01:54,538:INFO:ユーザー情報: {'server': '登録申請書', 'username': None, 'firstname': None, 'lastname': None, 'email': None, 'fullname': 'None None'}
+2023-11-28 09:01:54,539:ERROR:必要なユーザー情報が不足しています。
+2023-11-28 09:01:54,539:INFO:ユーザー情報: {'server': None, 'username': None, 'firstname': None, 'lastname': None, 'email': None, 'fullname': 'None None'}
+2023-11-28 09:01:54,539:ERROR:必要なユーザー情報が不足しています。
+2023-11-28 09:01:54,539:INFO:ユーザー情報: {'server': '登録サーバー', 'username': 'UserName', 'firstname': 'FirstName', 'lastname': 'LastName', 'email': 'e-mail', 'fullname': 'FirstName LastName'}
+2023-11-28 09:01:54,540:ERROR:必要なユーザー情報が不足しています。
+2023-11-28 09:01:54,540:INFO:ユーザー情報: {'server': 'server1', 'username': 'user01', 'firstname': 'Taro', 'lastname': 'Yamada', 'email': 'taro.yamada@example.com', 'fullname': 'Taro Yamada'}
+2023-11-28 09:01:54,540:ERROR:必要なユーザー情報が不足しています。
+2023-11-28 09:01:54,540:INFO:ユーザー情報: {'server': 'server2', 'username': 'user02', 'firstname': 'Hanako', 'lastname': 'Suzuki', 'email': 'hanako.suzuki@example.com', 'fullname': 'Hanako Suzuki'}
+2023-11-28 09:01:54,540:ERROR:必要なユーザー情報が不足しています。
+2023-11-28 09:01:54,540:INFO:ユーザー情報: {'server': 'server1', 'username': 'user03', 'firstname': 'Ichiro', 'lastname': 'Sato', 'email': 'ichiro.sato@example.com', 'fullname': 'Ichiro Sato'}
+2023-11-28 09:01:54,541:ERROR:必要なユーザー情報が不足しています。
+2023-11-28 09:01:58,115:INFO:ログ終了

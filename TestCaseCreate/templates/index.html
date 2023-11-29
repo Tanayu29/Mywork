@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>ランダムテストケース生成器</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>ランダムテストケース生成器</h1>
+    <form id="testcase-form">
+        <div class="options-container">
+            <div class="options-column">
+                <div class="checkbox-group">
+                    <input type="checkbox" id="half-width-numbers" name="options" value="half-width-numbers"> 
+                    <label for="half-width-numbers">半角数字</label><br>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="full-width-numbers" name="options" value="full-width-numbers"> 
+                    <label for="full-width-numbers">全角数字</label><br>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="half-width-alphabets" name="options" value="half-width-alphabets"> 
+                    <label for="half-width-alphabets">半角英字</label><br>
+                </div>
+            </div>
+            <div class="options-column">
+                <div class="checkbox-group">
+                    <input type="checkbox" id="full-width-alphabets" name="options" value="full-width-alphabets"> 
+                    <label for="full-width-alphabets">全角英字</label><br>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="full-width-characters" name="options" value="full-width-characters"> 
+                    <label for="full-width-characters">全角文字</label><br>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="symbols" name="options" value="symbols"> 
+                    <label for="symbols">記号</label><br>
+                </div>
+            </div>
+        </div>
+        <div>
+            <label for="min-value">最小値 (0):</label>
+            <input type="number" id="min-value" name="min-value" min="0"><br>
+        </div>
+        <div class="form-group">
+            <label for="max-value">最大値 (255):</label>
+            <input type="number" id="max-value" name="max-value" min="1" max="255">
+        </div>
+        <div>
+            <label for="pattern-count">出力パターン数 (0~100):</label>
+            <input type="number" id="pattern-count" name="pattern-count" min="0" max="100"><br>
+        </div>
+        <input type="submit" value="出力">
+    </form>
+    <div id="download-links"></div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
