@@ -5,7 +5,7 @@ import string
 import csv
 import os
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='./templates')
 
 @app.route('/')
 def index():
@@ -38,8 +38,13 @@ def generate():
     # ランダムデータ生成
     random_data = []
     for _ in range(pattern_count):
+        if min_value < max_value:
+            min_val, max_val = min_value, max_value
+        else:
+            min_val, max_val = max_value, min_value
+
         if char_set:
-            value = ''.join(random.choice(char_set) for _ in range(random.randint(min_value, max_value)))
+            value = ''.join(random.choice(char_set) for _ in range(random.randint(min_val, max_val)))
         else:
             value = ''
         random_data.append([value])

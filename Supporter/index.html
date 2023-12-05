@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>業務ツール</title>
+  <!-- CSSファイルへのリンク -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="tab">
+        <button class="tablinks" onclick="openTab(event, 'JiraAutomation')">JIRA業務自動化</button>
+        <button class="tablinks" onclick="openTab(event, 'LogSummarization')">ログ集計自動化</button>
+        <button class="tablinks" onclick="openTab(event, 'MonthlyReport')">月度報告書データ集計</button>
+    </div>
+    
+    <div id="JiraAutomation" class="tabcontent">
+        <h3>JIRA業務自動化</h3>
+        <!-- JIRA関連の自動化機能をここに実装 -->
+    </div>
+    
+    <div id="LogSummarization" class="tabcontent">
+        <h3>ログ集計自動化</h3>
+        <!-- ログ集計の自動化機能をここに実装 -->
+    </div>
+    
+    <div id="MonthlyReport" class="tabcontent">
+        <h3>月度報告書データ集計</h3>
+        <!-- 月度報告書のデータ集計自動化機能をここに実装 -->
+    </div>
+<!-- JavaScriptファイルへのリンク -->
+<script src="script.js"></script>
+</body>
+</html>
