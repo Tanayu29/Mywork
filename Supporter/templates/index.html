@@ -3,7 +3,7 @@
 <head>
   <title>業務ツール</title>
   <!-- CSSファイルへのリンク -->
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="/static/style.css">
 </head>
 <body>
     <div class="tab">
@@ -19,7 +19,8 @@
     
     <div id="LogSummarization" class="tabcontent">
         <h3>ログ集計自動化</h3>
-        <!-- ログ集計の自動化機能をここに実装 -->
+        <button id="logSummarize1" onclick="runLogSummarize1()">ログ集計1</button>
+        <button id="logSummarize2" onclick="runLogSummarize2()">ログ集計2</button>          
     </div>
     
     <div id="MonthlyReport" class="tabcontent">
@@ -27,6 +28,6 @@
         <!-- 月度報告書のデータ集計自動化機能をここに実装 -->
     </div>
 <!-- JavaScriptファイルへのリンク -->
-<script src="script.js"></script>
+<script src="/static/script.js"></script>
 </body>
 </html>

@@ -21,3 +21,20 @@ function openTab(evt, tabName) {
   // 初期表示時に最初のタブをアクティブにする
   document.getElementsByClassName("tablinks")[0].click();
   
+function runLogSummarize1() {
+  // Log.pyを実行するためのサーバーサイドのエンドポイントにリクエストを送信
+  fetch('/run-log-summarize1', { method: 'POST' })
+    .then(response => response.json())
+    .then(data => {
+      console.log('Log.py 実行結果:', data);
+      // 必要に応じて結果を処理
+    })
+    .catch(error => {
+      console.error('エラー:', error);
+    });
+}
+
+function runLogSummarize2() {
+  // "ログ集計.xlsm"を開くためのサーバーサイドのエンドポイントにリクエストを送信
+  window.open('/open-log-summarize2');
+}
